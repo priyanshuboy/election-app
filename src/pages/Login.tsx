@@ -73,7 +73,7 @@ const Login: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-green-50 flex items-center justify-center p-4">
+    <div className="relative min-h-screen bg-gradient-to-br from-blue-50 via-white to-green-50 flex items-center justify-center p-4">
       <BackgroundAnimation />
       
       <div className="login-form max-w-md w-full bg-white rounded-xl shadow-2xl overflow-hidden opacity-0">
@@ -182,8 +182,15 @@ const Login: React.FC = () => {
           </div>
         </div>
       </div>
+
+      {/* Footer */}
+      <div className="absolute bottom-4 text-xs text-gray-500 text-center w-full">
+        © {new Date().getFullYear()} All rights reserved | Built by Priyanshu Kushwah
+      </div>
     </div>
   );
 };
 
 export default Login;
+
+

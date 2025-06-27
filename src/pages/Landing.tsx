@@ -151,6 +151,9 @@ const Landing: React.FC = () => {
           </Link>
         </div>
       </section>
+      <div className="text-center text-xs text-gray-500 py-6">
+  © {new Date().getFullYear()} All rights reserved | Built by Priyanshu Kushwah, Sahil Rajput & Anna Bhagwat
+</div>
     </div>
   );
 };

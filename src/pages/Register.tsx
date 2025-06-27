@@ -145,8 +145,13 @@ const Register: React.FC = () => {
                 Login here
               </Link>
             </p>
+   
+    
           </div>
         </div>
+      </div>
+                   <div className="absolute bottom-4 text-xs text-gray-500 text-center w-full">
+        © {new Date().getFullYear()} All rights reserved | Built by Priyanshu Kushwah
       </div>
     </div>
   );
