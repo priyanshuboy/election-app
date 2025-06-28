@@ -27,8 +27,8 @@ export const candidates: Candidate[] = [
   },
   {
     id: '4',
-    name: 'dhruv rathi',
-    party: 'paw paw',
+    name: 'priyanshu',
+    party: 'chand',
     symbol: '✊',
     votes: 0,
     color: '#F59E0B'
