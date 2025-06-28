@@ -14,7 +14,7 @@ export const candidates: Candidate[] = [
     name: 'Anna',
     party: 'chand sitara',
     symbol: '🌸',
-    votes: 0,
+    votes: 1,
     color: '#EF4444'
   },
   {
@@ -22,7 +22,7 @@ export const candidates: Candidate[] = [
     name: 'modi ji',
     party: 'kamal',
     symbol: '🏛️',
-    votes: 0,
+    votes: 2,
     color: '#10B981'
   },
   {
